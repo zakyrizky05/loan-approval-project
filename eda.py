@@ -99,20 +99,20 @@ def app():
 
     st.write('# Boxplot for Cibil Score and Loan Amount')
 
-    image = Image.open(r'C:\Users\ThinkPad\Downloads\cibil-loan-amount.png')
+    image = Image.open('images/cibil-loan-amount.png')
     st.image(image, use_container_width=True)
 
     st.write('# Loan Status by Self Employed')
     
-    image2 = Image.open(r'C:\Users\ThinkPad\Downloads\loan-status-self-employed.png')
+    image2 = Image.open('images/loan-status-self-employed.png')
     st.image(image2, use_container_width=True)
 
     st.write('# Loan status and Loan Amount')
-    image3 = Image.open(r'C:\Users\ThinkPad\Downloads\loan-status-loan-amount.png')
+    image3 = Image.open('images/loan-status-loan-amount.png')
     st.image(image3, use_container_width=True)
 
     st.write('# Loan Status and Loan Term')
-    image4 = Image.open(r'C:\Users\ThinkPad\Downloads\loan-status-loan-term.png')
+    image4 = Image.open('images/loan-status-loan-term.png')
     st.image(image4, use_container_width=True)
 
 if __name__ == "__main__":
